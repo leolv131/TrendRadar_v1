@@ -8,10 +8,8 @@ HarmonyOS
 
 比亚迪
 王传福
-
 大疆
 DJI
-
 京东
 字节
 bytedance
@@ -67,3 +65,6 @@ ai
 
 相机
 镜头
+
+浙江
+宁波
