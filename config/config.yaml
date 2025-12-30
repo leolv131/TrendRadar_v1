@@ -44,10 +44,17 @@ platforms:
     name: "微博"
   - id: "douyin"
     name: "抖音"
-  - id: "zhihu"
-    name: "知乎"
-
-
+  - id: "_36kr"
+    name: "36氪"
+  - id: "xueqiu"
+    name: "雪球"
+  - id: "fastbull"
+    name: "法布财经"
+  - id: "jin10"
+    name: "金十数据"
+  - id: "gelonghui"
+    name: "格隆汇"
+    
 # ===============================================================
 # 3. 数据源 - RSS 订阅
 #
@@ -117,8 +124,8 @@ rss:
 #    • 适用场景：避免重复信息干扰
 # ===============================================================
 report:
-  mode: "current"                     # 可选: daily | current | incremental
-  rank_threshold: 5                   # 排名高亮阈值
+  mode: "incremental"                     # 可选: daily | current | incremental
+  rank_threshold: 10                   # 排名高亮阈值
   sort_by_position_first: false       # true=按配置位置排序，false=按热点条数排序
   max_news_per_keyword: 0             # 每个关键词最大显示数量（0=不限制）
   reverse_content_order: false        # false=热点词汇统计在前，true=新增热点新闻在前
@@ -155,10 +162,10 @@ notification:
   # 注意：GitHub Actions 执行时间不稳定，时间范围建议至少留足 2 小时
   #       如果想要精准的定时推送，建议使用 Docker 部署在个人服务器上
   push_window:
-    enabled: false                    # 是否启用推送时间窗口控制
-    start: "20:00"                    # 开始时间（北京时间）
+    enabled: true                    # 是否启用推送时间窗口控制
+    start: "08:00"                    # 开始时间（北京时间）
     end: "22:00"                      # 结束时间（北京时间）
-    once_per_day: true                # true=窗口内只推送一次，false=窗口内每次执行都推送
+    once_per_day: false                # true=窗口内只推送一次，false=窗口内每次执行都推送
 
   # 推送渠道配置
   channels:
