@@ -1,19 +1,19 @@
 基金
 贵金属
+半导体
+农业
+猪肉
+航空
+商业航天
 
 华为
 鸿蒙
-HarmonyOS
-任正非
-
 比亚迪
-王传福
 大疆
 DJI
 京东
 字节
 bytedance
-张一鸣
 特斯拉
 马斯克
 微软
@@ -24,17 +24,6 @@ NVIDIA
 AMD
 谷歌
 google
-gemini
-deepmind
-
-chatgpt
-openai
-sora
-
-iphone
-ipad
-mac
-ios
 
 ai
 !gai
@@ -42,6 +31,7 @@ ai
 
 自动驾驶
 机器人
+无人机
 
 国产
 中国
@@ -52,19 +42,14 @@ ai
 
 科技
 核能
-水电站
-雅鲁藏布江
 新质生产力
 
-月球
-登月
-火星
-宇宙
-飞船
-航空
-
+佳能
+富士
 相机
 镜头
+副厂镜头
 
 浙江
 宁波
+房产
